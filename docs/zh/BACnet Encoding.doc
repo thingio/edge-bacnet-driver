@@ -1,0 +1,1768 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}{\f4\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Times;}{\f5\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica;}{\f6\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Courier;}{\f7\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Geneva;}{\f8\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Tms Rmn;}{\f9\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helv{\*\falt Arial};}{\f10\froman\fcharset0\fprq2{\*\panose 00000000000000000000}MS Serif;}{\f11\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}MS Sans Serif;}{\f12\froman\fcharset0\fprq2{\*\panose 00000000000000000000}New York;}{\f13\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}System;}{\f14\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}Wingdings;}{\f15\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Tahoma;}{\f16\fnil\fcharset2\fprq2{\*\panose 00000000000000000000}Marlett;}{\f17\fswiss\fcharset0\fprq2{\*\panose 020b0504020203020204}News Gothic MT;}{\f18\fscript\fcharset0\fprq2{\*\panose 03010101010101010101}Lucida Handwriting;}{\f19\fswiss\fcharset0\fprq2{\*\panose 020b0602030504090204}Lucida Sans;}{\f20\fswiss\fcharset0\fprq2{\*\panose 020b0602030504020204}Lucida Sans Unicode;}{\f21\froman\fcharset0\fprq2{\*\panose 02040602050305030304}Book Antiqua;}{\f22\fswiss\fcharset0\fprq2{\*\panose 020b0502020202020204}Century Gothic;}{\f23\fmodern\fcharset0\fprq1{\*\panose 02010509020102010303}OCR A Extended;}{\f24\froman\fcharset0\fprq2{\*\panose 02040603050505030304}Calisto MT;}{\f25\fswiss\fcharset0\fprq2{\*\panose 020b0306030101010103}Abadi MT Condensed Light;}{\f26\fswiss\fcharset0\fprq2{\*\panose 020e0705020206020404}Copperplate Gothic Bold;}{\f27\fswiss\fcharset0\fprq2{\*\panose 020e0507020206020404}Copperplate Gothic Light;}{\f28\fmodern\fcharset0\fprq1{\*\panose 020b0609040504020204}Lucida Console;}{\f29\fswiss\fcharset0\fprq2{\*\panose 020b0604030504040204}Verdana;}{\f30\fswiss\fcharset0\fprq2{\*\panose 020b0706040902060204}Haettenschweiler;}{\f31\froman\fcharset2\fprq2{\*\panose 05050102010205020202}MT Extra;}{\f32\fswiss\fcharset0\fprq2{\*\panose 020b0506020202030204}Arial Narrow;}{\f33\fswiss\fcharset0\fprq2{\*\panose 020b0a04020102020204}Arial Black;}{\f34\froman\fcharset0\fprq2{\*\panose 02050604050505020204}Bookman Old Style;}{\f35\fnil\fcharset2\fprq2{\*\panose 01010601010101010101}Monotype Sorts;}{\f36\froman\fcharset0\fprq2{\*\panose 00050102010706020507}Map Symbols;}{\f37\froman\fcharset0\fprq2{\*\panose 02020404030301010803}Garamond;}{\f38\fswiss\fcharset0\fprq2{\*\panose 020b0806030902050204}Impact;}{\f39\fnil\fcharset2\fprq2{\*\panose 05000000000000000000}MS Outlook;}{\f40\fscript\fcharset0\fprq2{\*\panose 030f0702030302020204}Comic Sans MS;}{\f41\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Bookshelf Symbol 3;}{\f42\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}AvantGarde;}{\f43\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Bookman;}{\f44\fswiss\fcharset0\fprq2{\*\panose 00000000000000000000}Helvetica-Narrow;}{\f45\froman\fcharset0\fprq2{\*\panose 00000000000000000000}NewCenturySchlbk;}{\f46\froman\fcharset0\fprq2{\*\panose 00000000000000000000}Palatino;}{\f47\froman\fcharset0\fprq2{\*\panose 00000000000000000000}ZapfChancery;}{\f48\fdecor\fcharset0\fprq2{\*\panose 00000000000000000000}ZapfDingbats;}{\f139\fswiss\fcharset238\fprq2 Tahoma CE;}{\f140\fswiss\fcharset204\fprq2 Tahoma Cyr;}{\f142\fswiss\fcharset161\fprq2 Tahoma Greek;}{\f143\fswiss\fcharset162\fprq2 Tahoma Tur;}{\f144\fswiss\fcharset186\fprq2 Tahoma Baltic;}{\f169\fswiss\fcharset238\fprq2 Lucida Sans Unicode CE;}{\f170\fswiss\fcharset204\fprq2 Lucida Sans Unicode Cyr;}{\f172\fswiss\fcharset161\fprq2 Lucida Sans Unicode Greek;}{\f173\fswiss\fcharset162\fprq2 Lucida Sans Unicode Tur;}{\f217\fmodern\fcharset238\fprq1 Lucida Console CE;}{\f218\fmodern\fcharset204\fprq1 Lucida Console Cyr;}{\f220\fmodern\fcharset161\fprq1 Lucida Console Greek;}{\f221\fmodern\fcharset162\fprq1 Lucida Console Tur;}{\f241\fswiss\fcharset238\fprq2 Arial Narrow CE;}{\f242\fswiss\fcharset204\fprq2 Arial Narrow Cyr;}{\f244\fswiss\fcharset161\fprq2 Arial Narrow Greek;}{\f245\fswiss\fcharset162\fprq2 Arial Narrow Tur;}{\f246\fswiss\fcharset186\fprq2 Arial Narrow Baltic;}{\f247\fswiss\fcharset238\fprq2 Arial Black CE;}{\f248\fswiss\fcharset204\fprq2 Arial Black Cyr;}{\f250\fswiss\fcharset161\fprq2 Arial Black Greek;}{\f251\fswiss\fcharset162\fprq2 Arial Black Tur;}{\f252\fswiss\fcharset186\fprq2 Arial Black Baltic;}{\f253\froman\fcharset238\fprq2 Bookman Old Style CE;}{\f254\froman\fcharset204\fprq2 Bookman Old Style Cyr;}{\f256\froman\fcharset161\fprq2 Bookman Old Style Greek;}{\f257\froman\fcharset162\fprq2 Bookman Old Style Tur;}{\f258\froman\fcharset186\fprq2 Bookman Old Style Baltic;}{\f271\froman\fcharset238\fprq2 Garamond CE;}{\f272\froman\fcharset204\fprq2 Garamond Cyr;}{\f274\froman\fcharset161\fprq2 Garamond Greek;}{\f275\froman\fcharset162\fprq2 Garamond Tur;}{\f276\froman\fcharset186\fprq2 Garamond Baltic;}{\f277\fswiss\fcharset238\fprq2 Impact CE;}{\f278\fswiss\fcharset204\fprq2 Impact Cyr;}{\f280\fswiss\fcharset161\fprq2 Impact Greek;}{\f281\fswiss\fcharset162\fprq2 Impact Tur;}{\f282\fswiss\fcharset186\fprq2 Impact Baltic;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\qj\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \snext0 Normal;}{\s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\adjustright \b\f9\fs28\cf6\cgrid \sbasedon0 \snext0 heading 1;}{\s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid \sbasedon1 \snext0 heading 2;}{\s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\cf6\cgrid \sbasedon1 \snext0 heading 3;}{\s4\qj\li864\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\cf6\cgrid \sbasedon1 \snext0 heading 4;}{\s5\qj\li1152\sb400\sa200\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid \sbasedon1 \snext0 heading 5;}{\s6\qj\li1440\sb400\sa200\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid \sbasedon1 \snext0 heading 6;}{\s7\qj\li1728\sb320\sa160\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs16\cf6\cgrid \sbasedon1 \snext0 heading 7;}{\s8\qj\li720\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\i\f9\fs28\cf6\cgrid \sbasedon1 \snext15 heading 8;}{\s9\qj\li720\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\i\f9\fs28\cf6\cgrid \sbasedon1 \snext15 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\s15\qj\li720\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 Normal Indent;}{\s16\qr\li2016\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 8;}{\s17\qr\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon0 \snext0 toc 1;}{\s18\qr\li1728\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 7;}{\s19\qr\li1440\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 6;}{\s20\qr\li1152\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 5;}{\s21\qr\li864\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 4;}{\s22\qr\li576\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 3;}{\s23\qr\li288\ri720\keep\nowidctlpar\widctlpar\tqr\tldot\tx8280\adjustright \f9\fs20\cf2\cgrid \sbasedon17 \snext0 toc 2;}{\s24\qj\li2160\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 7;}{\s25\qj\li1800\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 6;}{\s26\qj\li1440\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 5;}{\s27\qj\li1080\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 4;}{\s28\qj\li720\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 3;}{\s29\qj\li360\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 2;}{\s30\qj\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 index 1;}{\*\cs31 \additive \sbasedon10 line number;}{\s32\qj\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext30 index heading;}{\s33\qj\keep\nowidctlpar\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 footer;}{\s34\qc\keep\nowidctlpar\widctlpar\adjustright \f9\cgrid \sbasedon0 \snext0 header;}{\*\cs35 \additive \fs16\up6 \sbasedon10 footnote reference;}{\s36\qj\keep\nowidctlpar\widctlpar\adjustright \f9\fs20\cgrid \sbasedon0 \snext36 footnote text;}{\s37\qj\fi-720\li720\keep\keepn\nowidctlpar\widctlpar\tx720\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 BL;}{\s38\fi-1440\li1440\keep\keepn\nowidctlpar\widctlpar\tx1440\adjustright \f9\fs20\cgrid \sbasedon0 \snext0 BL1;}}{\*\listtable{\list\listtemplateid67698703\listsimple{\listlevel\levelnfc0\leveljc0\levelfollow0\levelstartat1\levelold\levelspace0\levelindent360{\leveltext\'02\'00.;}{\levelnumbers\'01;}\fi-360\li360 }{\listname ;}\listid1499927598}}{\*\listoverridetable{\listoverride\listid1499927598\listoverridecount0\ls1}}{\info{\author John Hartman}{\operator H. Michael Newman}{\creatim\yr1994\mo8\dy11\hr8\min51}{\revtim\yr1998\mo11\dy9\hr13\min28}{\printim\yr1996\mo3\dy5\hr9\min34}{\version2}{\edmins2}{\nofpages40}{\nofwords10019}{\nofchars57110}{\*\company American Std., Trane - BAS}{\nofcharsws70135}{\vern71}}\widowctrl\ftnbj\aenddoc\noextrasprl\prcolbl\cvmme\sprsspbf\brkfrm\swpbdr\lytprtmet\hyphcaps0\fracwidth\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot \fet0\sectd \linex0\endnhere\sectdefaultcl {\header \pard\plain \s34\qr\keep\nowidctlpar\widctlpar\adjustright \f9\cgrid {\fs20 BACnet Samples - }{\field{\*\fldinst {\fs20 PAGE}}{\fldrslt {\fs20\lang1024 1}}}{\fs20 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \qc\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {
+\par }\pard \qc\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }{\fs28 Sample BACnet Messages via ARCNET 
+\par }\pard \qc\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\fs28 and Point-to-Point (RS-232) 
+\par }{
+\par }\pard \qc\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {27 October 1998
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qc\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Copyright © 1996, 1998 American Standard Inc.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par 
+\par This document shows examples of BACnet messages as they might appear on an ARCNET or  BACnet Point-to-Point (PTP) link.  The examples describe the derivation of the encoded values from the service definitions and encoding rules contained in ANSI/ASHRAE 135-1995, the BACnet standard (referred to herein as \ldblquote BACnet\rdblquote  or \ldblquote ANSI BACnet\rdblquote .)
+\par 
+\par References to page numbers and to numbered \ldblquote clauses\rdblquote  are to the BACnet standard.
+\par 
+\par References to numbered \ldblquote sections\rdblquote  are to sections of this document.
+\par 
+\par To construct a BACnet request, proceed as follows
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 1.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Find the appropriate service description in clauses 13 to 17.  This will describe in English the parameters to be used.
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 2.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Find the ASN.1 definition of the service and its parameters in clause 21.  This is the formal definition of the service request.
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 3.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Use clause 20.1 to encode the APDU header.
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 4.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Use clause 20.2 to encode the tagged portion of the APDU.
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 5.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Use clause 6 to define and encode the network layer header.
+\par {\pntext\pard\plain\f9\fs20\cgrid \hich\af9\dbch\af0\loch\f9 6.\tab}}\pard \qj\fi-360\li360\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec\pnstart1\pnindent360\pnhang{\pntxta .}}\ls1\adjustright {Use clause 7 to 11 to define and encode the datalink and physical layer information.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par The examples which follow show this process.
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {1.0  A Quick Course in ASN.1
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {This section is intended to assist readers unfamiliar with the ASN.1 notation in reading BACnet clause 21.  The reader is also referred to ISO/IEC 8824, which formally defines ASN.1, and to BACnet clause 20.2 which defines BACnet\rquote s encoding of ASN.1.  Experts may quibble with the descriptions given here.  The intention of this section is merely tutorial.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par name ::= expression
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {defines "name" in terms of the expression.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par SEQUENCE \{\}
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {means that one of each item in the bracketed construct is included, unless it is marked with the keyword OPTIONAL, in which case it may or may not be included.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par SEQUENCE OF item
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {means a list of zero or more items.  The item may be another ASN.1 definition, or it may be a SEQUENCE \{\}.  Note the difference between the one-shot SEQUENCE and the list defined by SEQUENCE OF.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par CHOICE \{\}
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {means a selection of one item of the bracketed construct is included.
+\par 
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {ENUMERATED \{name (value),...\}
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {defines an enumeration, where a list of "names" are assigned values shown in parenthesis.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par [n]
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {A number in square brackets denotes a context tag, which will generally appear in the encoding (the exception being tags defined in the APDU header productions)
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par ABSTRACT-SYNTAX.&Type
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Indicates that a CHOICE of any tagged datatype  is legal.
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {2.0  General Notes
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {BACnet Point to Point (PTP), as described in BACnet clause 10, is a full duplex Datalink protocol.  Thus, frames may be sent and received simultaneously.  }{\b\i Requester implementations must be prepared to receive Data and Heartbeat frames at any time.  }{In particular, Data frames must be acknowledged via DataAck (Datalink acknowledge) in a timely fashion, even if the content of the Data frame is not expected by the upper layers.  If this is not done, the peer device will be unable to send subsequent Data frames which may contain expected data.  Frames containing PDUs not expected by the upper layers should be dealt with as described in BACnet clause 5.  Appropriate actions will generally be either to discard the PDU, or to respond to it with a BACnet-Abort-PDU.
+\par 
+\par ARCNET, as described in BACnet clause 8, is a peer to peer Datalink protocol.  Requester implementations must be prepared to receive frames at any time.  Frames containing PDUs not expected by the upper layers should be dealt with as described in BACnet clause 5.  Appropriate actions will generally be either to discard the PDU, or to respond to it with a BACnet-Abort-PDU.
+\par 
+\par Attempts to implement a requester as the master of a master/slave pair will not be successful unless the above concerns are addressed.  In particular, implementations must be prepared to receive various broadcast messages from time to time.  For example, the Tracer Summit Workstation will broadcast Who-Is messages on a periodic basis.  Summit BCUs may issue such messages as well.
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {3.0  Establishing a PTP Connection
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {This section does not apply to ARCNET interfaces.
+\par 
+\par To establish a PTP connection with the BCU, a PTP REQUESTER sends "BACnet"<CR>
+\par 
+\par 0x42
+\par 0x41
+\par 0x43
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x6E
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x65
+\par 0x74
+\par 0x0D
+\par 
+\par The PTP BCU responds with Connect Request
+\par 
+\par 0x55\tab Preamble
+\par 0xFF
+\par 0x0C\tab Frame Type 12: Connect Request
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x44\tab Header CRC
+\par 
+\par The PTP REQUESTER responds with Connect Response
+\par 
+\par 0x55\tab Preamble
+\par 0xFF
+\par 0x0D\tab Frame Type 13: Connect Response
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0xDC\tab Header CRC
+\par 
+\par The PTP REQUESTER sends Heartbeat XON
+\par 
+\par 0x55\tab Preamble
+\par 0xFF
+\par 0x01\tab Frame Type 1: Heartbeat XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x76\tab Header CRC
+\par 
+\par The PTP BCU sends Heartbeat XON
+\par 
+\par 0x55\tab Preamble
+\par 0xFF
+\par 0x01\tab Frame Type 1: Heartbeat XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x76\tab Header CRC
+\par 
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {If The BCU does not transmit any other frames for 15 seconds, it will send a Heartbeat frame.  Requester implementations should be prepared to receive Heartbeat frames at any time.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par The PTP REQUESTER sends I-Am-Router-To-Network (required by BACnet, but optional as far as the BCU is concerned.)  This message is described in clauses 6.4.2, 6.6.3.3, and 6.7.  The network layer header is described in clause 6.2.
+\par 
+\par }{\i Note: the correct contents of the network header for this message are currently under discussion.  The issue is whether or not a DNET and DADR (and possible SNET and SADR) should be present.  Implementations should be prepared for all combinations of network header.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 9
+\par 0x09
+\par 0xDA\tab header CRC
+\par       \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x88\tab Network control octet
+\par \tab \tab Bit7   \tab = 1 \tab \tab "network message"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET absent
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab Source net 0x002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab Source address 0x15
+\par 0x01\tab Network Message Type 01:  I-Am-Router-To-Network
+\par \tab List of network numbers follows
+\par 0x00\tab \tab network number 0x0001
+\par 0x02
+\par 0x6E\tab Data CRC
+\par 0xCD
+\par 
+\par PTP BCU acknowledges
+\par 
+\par 0x55\tab Preamble
+\par 0xFF
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0xBB\tab Header CRC
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {4.0  Unconfirmed Services (Who-Is and I-Am)
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {Who-Is and I-Am may be used to dynamically bind Device IDs (Device Object Identifiers) to addresses.  Tracer Summit uses Who-Is and I-Am in this fashion.  Since these messages are globally broadcast, they will be routed between ARCNET and PTP.  Thus, requester implementations must be prepared to see these messages at any time.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {4.1  Who-Is
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The Who-Is and I-Am services are described in clause 16.9.  The ASN.1 definition of these services is in clause 21.  These are Unconfirmed services.  On page 348, BACnet-Unconfirmed-Request-PDU is defined to be a service-choice followed by a service-request.  The comment states that tags are not used in the header encoding.  Header encoding for BACnet-Unconfirmed-Request-PDU is shown in clause 20.1.3.3.  
+\par 
+\par The service-choice is defined to be of type BACnetUnconfirmedServiceChoice, which is defined on page 359 as an enumeration.  The value for who-Is is 8 decimal.
+\par 
+\par The service-request is defined to be of type BACnetUnconfirmedServiceRequest, which is defined on page 359.  The CHOICE for who-Is is the production Who-Is-Request, which is defined on  page 361, as a SEQUENCE consisting of an OPTIONAL pair of unsigned integers which specify the range of devices which should respond.  The encoding of an unsigned integer is defined in clause 20.2.4.  In this example, the intergers are absent, meaning (according to clause 16.9.2) that all devices should respond with I-Am.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {4.1.1  Example of Who-Is on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {In the example which follows, the network header specifies a global broadcast (DNET 0xffff, DADR of length 0).  The network header specifies the "return address" of the requester as SNET and SADR.  Neither SNET nor SADR may be "broadcast", and SNET may not be the same as DNET.
+\par 
+\par }{\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55 \tab Preamble
+\par 0xFF
+\par 0x03 \tab Frame Type 3: Data 1
+\par 0x00 \tab Length = 12
+\par 0x0C
+\par 0x41\tab Header CRC
+\par       \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0xFF\tab DNET 0xFFFF (broadcast)
+\par 0xFF
+\par 0x00\tab DLEN 0 (denotes broadcast)
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF  \tab Hop Count 255
+\par  \tab APDU follows
+\par 0x10\tab APDU type 1: Unconfirmed Request (with DLE escape)
+\par 0x90  
+\par 0x08\tab Service Choice 8:  Who Is
+\par   \tab No Tagged Service parameters for this example
+\par 0xE2\tab Data CRC
+\par 0x56  
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {4.1.2  Example of Who-Is on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {In the example which follows, the network header specifies a global broadcast (DNET 0xffff, DADR of length 0).  The network header contains no source network or address for the requester, as the requester is assumed in this example to reside on the same ARCNET network where the request is observed.  The CRC is not shown, as it is inserted and removed by the ARCNET interface hardware.
+\par 
+\par }{\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID (assume hex 15)
+\par 0x00\tab ARCNET Destination ID (broadcast)
+\par 0x0C \tab ARCNET Frame Length = 12
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (reserved by the IEEE for BACnet)
+\par 0x82\tab 8802-2 DSAP (reserved by the IEEE for BACnet)
+\par 0x03\tab 8802-2 caution: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x20\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0xFF\tab DNET 0xFFFF (broadcast)
+\par 0xFF
+\par 0x00\tab DLEN 0 (denotes broadcast)
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x10\tab APDU type 1: Unconfirmed Request
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x08\tab Service Choice 8:  Who Is
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {  \tab No Tagged Service parameters for this example
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {4.2  I-Am
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {When the BCU receives a Who-Is whose device instance range limits include the BCU's Device Identifier, or a Who-Is which does not contain device instance range limits, the BCU will respond by broadcasting an I-Am.
+\par 
+\par The I-Am service is described in clause 16.9.  The ASN.1 definition is in clause 21.  This is an Unconfirmed service.  On page 348, BACnet-Unconfirmed-Request-PDU is defined to be a service-choice followed by a service-request.  The comment states that tags are not used in the header encoding.  Header encoding for BACnet-Unconfirmed-Request-PDU is shown in clause 20.1.3.3.  
+\par 
+\par The service-choice is defined to be of type BACnetUnconfirmedServiceChoice, which is defined on page 359 as an enumeration.  The value for I-Am is 0.
+\par 
+\par The service-request is defined to be of type BACnetUnconfirmedServiceRequest, which is defined on page 359.  The CHOICE for I-Am is the production I-Am-Request, which is defined on  page 360, as a SEQUENCE consisting of a BACnetObjectIdentifier containing the device\rquote s identifier, an unsigned integer specifying the maximum APDU length receivable by the device, an enumeration specifying the device\rquote s segmentation abilities, and an unsigned integer specifying the device\rquote s vendor.  The encoding of a BACnetObjectIdentifier is defined in clause 20.2.14.  In this example, the BCU's Device Object has Object Identifier objectType = 8 (Device), instance = 1. The encoding of an unsigned integer is defined in clause 20.2.4.  In this example, the BCU's maximum APDU length is 480. The encoding of an enumeration is defined in clause 20.2.11.  In this example, the BCU can both send and receive segmented messages, so the value is \ldblquote segmented-both\rdblquote .  The value of the BCU\rquote s vendor identifier is 02 (Trane).
+\par 
+\par Note that the network header for both ARCNET and PTP specifies a global broadcast destination.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {4.2.1  Example of I-Am on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP BCU sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 24
+\par 0x18
+\par 0xD5\tab Header CRC
+\par         \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0xFF\tab DNET 0xFFFF (broadcast)
+\par 0xFF
+\par 0x00\tab DLEN 0 (denotes broadcast)
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF\tab Hop Count 255
+\par  \tab APDU follows
+\par 0x10\tab APDU type Unconfirmed Request (with DLE escape)
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x90  
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00\tab Service Choice 0:  I Am
+\par   \tab Tagged Service parameters follow
+\par 0xC4\tab \tab Application Tag 12 (Object Identifier), length 4
+\par 0x02\tab \tab \tab Object type 8 (Device), Object Instance 1
+\par 0x00  
+\par 0x00  
+\par 0x01  
+\par 0x22\tab \tab Application Tag 2 (Unsigned Integer), length 2
+\par 0x01\tab \tab \tab Maximum APDU size: 480
+\par 0xE0
+\par 0x91\tab \tab Application Tag 9 (Enumerated), length 1
+\par 0x00\tab \tab \tab segmentation: segmented-both
+\par 0x21\tab \tab Application Tag 2 (Unsigned Integer), length 1
+\par 0x02\tab \tab \tab value 2 = vendorID Trane
+\par 0xCB\tab Data CRC
+\par 0x1A 
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x06\tab Frame Type 6: Data Ack XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0xBB\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {4.2.2  Example of I-Am on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET BCU sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID (assume hex 01)
+\par 0x00\tab ARCNET Destination ID (broadcast)
+\par 0x18 \tab ARCNET Frame Length = 24
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x20\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0xFF\tab DNET 0xFFFF (broadcast)
+\par 0xFF
+\par 0x00\tab DLEN 0 (denotes broadcast)
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x10\tab APDU type Unconfirmed Request
+\par 0x00\tab Service Choice 0:  I Am
+\par   \tab Tagged Service parameters follow
+\par 0xC4\tab \tab Application Tag 12 (Object Identifier), length 4
+\par 0x02\tab \tab \tab Object type 8 (Device), Object Instance 1
+\par 0x00  
+\par 0x00  
+\par 0x01  
+\par 0x22\tab \tab Application Tag 2 (Unsigned Integer), length 2
+\par 0x01\tab \tab \tab Maximum APDU size: 480
+\par 0xE0
+\par 0x91\tab \tab Application Tag 9 (Enumerated), length 1
+\par 0x00\tab \tab \tab segmentation: segmented-both
+\par 0x21\tab \tab Application Tag 2 (Unsigned Integer), length 1
+\par 0x02\tab \tab \tab value 2 = vendorID Trane
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {5.0  ReadProperty - Single Property of Analog Input
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {Example of ReadProperty for the present-value property of Analog Input Object number 1.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {5.1  ReadProperty - Request
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The Analog Input Object and its properties are described in clause 12.1.  The ReadProperty service is described in clause 15.5.  The ASN.1 definition  of ReadProperty is in clause 21.  This is a Confirmed service.  On page 348, BACnet-Confirmed-Request-PDU is defined to be a SEQUENCE of items.  The comment states that tags are not used in the header encoding.  
+\par 
+\par Header encoding for BACnet-Confirmed-Request-PDU is shown in clause 20.1.2.  Values may be determined as follows:
+\par 
+\par segmented-message
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {BOOLEAN, TRUE if this is a segmented message, FALSE otherwise.  FALSE in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par more-follows
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {BOOLEAN, TRUE if this is a segmented message, and this is not the final segment.  FALSE otherwise.  FALSE in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par segmented-message-accepted
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {BOOLEAN, TRUE if the requester will accept a segmented BACnet-Complex-ACK-PDU as a response, FALSE otherwise.  TRUE in this example.
+\par 
+\par The BCU will accept segmented BACnet-Confirmed-Request-PDUs, and is capable of returning segmented BACnet-ComplexACK-PDUs.  Support of segmentation by requesters is optional.
+\par 
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {maximum-APDU-size-accepted
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Specifies the maximum size of a single PDU or PDU segment.  In this example, an enumerated value of 3, denoting a maximum of 480 octets.  This is the maximum value allowed for BACnet PDUs on ARCNET and PTP, and is the maximum value accepted by the BCU.
+\par 
+\par }\pard \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {invokeID
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {"Serial number" used by the requester to associate the response with the request.  All segments of a segmented request must have the same invokeID.  The invokeID should be incremented for each new BACnet-Confirmed-Request-PDU.   This facilitates debugging, as it allows responses to be correlated with the requests which caused them.  The invokeID will increment in each example which follows.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par sequence-number
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Identifies the segments of a segmented BACnet-Confirmed-Request-PDU.  Not present in un-segmented requests, such as this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par proposed-window-size
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Specifies the maximum segmentation window size acceptable to a requester sending a segmented BACnet-Confirmed-Request-PDU.  Not present in un-segmented requests, such as this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par service-choice
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for readProperty is 12 decimal.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par service-request
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-request is defined to be of type BACnet-Confirmed-Service-Request, which is defined on page 351.  The CHOICE for readProperty is the production ReadProperty-Request, which is defined on page 355 as a SEQUENCE consisting of "objectIdentifier", tagged with context tag 0 and of type BACnetObjectIdentifier; "propertyIdentifier", tagged with context tag 1 and of type BACnetPropertyIdentifier; and "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 2.  Since the present-value of an Analog Input Object is not an array, the index will not be present in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par The BACnetPropertyIdentifier is an enumeration defined on page 375.  present-value has an enumerated value of 85 decimal.  Enumerations are primitive, and their encoding is described in clause 20.2.11.  In this case, the ASN.1 "[0]" specifies that encoding should contain context tag 0, rather than the application tag 12 which would be used if the ASN.1 did not contain the "[0]".  Clause 20.2.15 subitem "a)" and "b)" specify the encoding of such a value to be the context tag, followed by the data octets encoded as specified in clause 20.1.11.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {5.1.1  ReadProperty - Request on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF\tab                             
+\par 0x02\tab Frame Type 2: Data 0
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00\tab Length = 23
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x16
+\par 0x2E\tab Header CRC
+\par  \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par 0x01\tab Destination address length 1 octet
+\par 0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF\tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x00\tab Invoke ID 0
+\par 0x0C\tab Service Choice 12:  Read Property
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0xD8\tab Data CRC (second octet is 0x13 with DLE escape)
+\par 0x10
+\par 0x93  
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0xFF                                   
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0xBB\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {5.1.2  ReadProperty - Request on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x11 \tab ARCNET Frame Length = 17
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x00\tab Invoke ID 0
+\par 0x0C\tab Service Choice 12:  Read Property
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab Data: Property 85:  present-value
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {5.2  ReadProperty - Response
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {When the BCU receives a ReadProperty-Request, it services the request as described in clause 15.5.2  The normal response is a Result(+), which is defined in Table 15-5.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Since the response includes data, it must be returned as a BACnet-ComplexACK-PDU.  On page 349, BACnet-ComplexACK-PDU is defined to be a SEQUENCE of items.  The comment states that tags are not used in the header encoding.
+\par 
+\par Header encoding for BACnet-ComplexACK-PDU is shown in clause 20.1.5.  Values may be determined as follows:
+\par 
+\par segmented-message
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {BOOLEAN, TRUE if this is a segmented response, FALSE otherwise.  FALSE in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par more-follows
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {BOOLEAN, TRUE if this is a segmented response, and this is not the final segment.  FALSE otherwise.  FALSE in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par original-invokeID
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Will contain the invokeID of the BACnet-Confirmed-Request-PDU which is being responded to.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par sequence-number
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Identifies the segments of a segmented BACnet-Confirmed-Request-PDU.  Not present in un-segmented requests, such as this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par proposed-window-size
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {Specifies the maximum segmentation window size acceptable to a responder sending a segmented BACnet-ComplexACK-PDU.  Not present in un-segmented ComplexACKs, such as this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par service-ACK-choice
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-ACK-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for readProperty is 12 decimal.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par service-ACK
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-ACK is defined to be of type BACnet-Confirmed-Service-ACK, which is defined on page 351.  The CHOICE for readProperty is the production ReadProperty-ACK.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {ReadProperty-ACK is defined on page 355 as a SEQUENCE consisting of "objectIdentifier", tagged with context tag 0 and of type Object Identifier; "propertyIdentifier", tagged with context tag 1 and of type BACnetPropertyIdentifier; "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 2; and "propertyValue" tagged with context tag 3 and of type ABSTRACT-SYNTAX.&Type.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par In this example, a propertyValue will be returned.  The designation "ABSTRACT-SYNTAX.&Type" means that the encoding (defined in clause 20.2.19) is the complete encoding including tags of the data type defined for the property value being returned.  Since such an encoding includes tags, the ABSTRACT-SYNTAX.&Type is "constructed" according to the definition of 20.2.1.3.2, the context tag 3 must be encoded as an opening tag/closing tag pair surrounding the encoding of the ABSTRACT-SYNTAX.&Type.  In this example, the value is a real number.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {5.2.1  ReadProperty - Response on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP BCU sends ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                           
+\par 0x03\tab Frame Type 3: Data 1
+\par 0x00\tab Length = 28.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x1C      
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0xB0\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x00\tab Invoke ID 0
+\par 0x0C\tab Service Choice 12:  Read Property ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab Data: Property 85:  present-value
+\par 0x3E\tab \tab Context Tag 3, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x3F\tab \tab Context Tag 3, closing tag
+\par 0x1F\tab Data CRC
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x6D 
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {5.2.2  ReadProperty - Response on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET BCU sends ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x17 \tab ARCNET Frame Length = 23.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x00\tab Invoke ID 0
+\par 0x0C\tab Service Choice 12:  Read Property ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab Data: Property 85:  present-value
+\par 0x3E\tab \tab Context Tag 3, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x3F\tab \tab Context Tag 3, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {6.0  ReadPropertyMultiple - One Property of Analog Input
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The previous example used the ReadProperty service to read a property of an object.  This example uses the ReadPropertyMultiple service to read the same property.  Either service may be used.  However, ReadPropertyMultiple has additional capabilities which will be shown in later examples.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {6.1  ReadPropertyMultiple - Request
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {APDU header encoding is as in the example of 5.1, except for service-choice and service-request:
+\par 
+\par service-choice
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for readPropertyMultiple is 14 decimal.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par service-request
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-request is defined to be of type BACnet-Confirmed-Service-Request, which is defined on page 351.  The CHOICE for readPropertyMultiple is the production ReadPropertyMultiple-Request, which is defined on page 356 as a SEQUENCE consisting of a SEQUENCE OF ReadAccessSpecifications.  
+\par 
+\par ReadAccessSpecification is defined on page 382 as a SEQUENCE consisting of an "objectIdentifier", tagged with context tag 0 and of type BACnetObjectIdentifier; and a \ldblquote listOfPropertyReferences\rdblquote , tagged with context tag 1 and of type SEQUENCE OF BACnetPropertyReference.
+\par 
+\par BACnetPropertyReference is defined on page 378 as "propertyIdentifier", tagged with context tag 0 and of type BACnetPropertyIdentifier; and "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 1.  Since the present-value of an Analog Input Object is not an array, the index will not be present in this example.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par In this example, the request contains a single ReadAccessSpecification, which in turn specifies a single  BACnetPropertyReference for the property to be read.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {6.1.1  ReadPropertyMultiple - Request on PTP
+\par }\pard\plain \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP REQUESTER sends
+\par }\pard \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x03\tab Frame Type 3: Data 1
+\par 0x00\tab Length = 24
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x18
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x4D\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par 0x01\tab Destination address length 1 octet
+\par 0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF\tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x92\tab Data CRC
+\par 0x7B 
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0xFF
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {6.1.2  ReadPropertyMultiple - Request on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x13 \tab ARCNET Frame Length = 19.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {6.2  ReadPropertyMultiple - Response
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {When the BCU receives a ReadPropertyMultiple-Request, it services the request as described in clause 15.7.2  The normal response is a Result(+), which is defined in Table 15-11.
+\par 
+\par Since the response includes data, it must be returned as a BACnet-ComplexACK-PDU.  On page 349, BACnet-ComplexACK-PDU is defined to be a SEQUENCE of items.  The comment states that tags are not used in the header encoding.
+\par 
+\par Header encoding is as for the example of 5.2 except for service-ACK-choice and service-ACK:
+\par 
+\par }\pard \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {service-ACK-choice
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-ACK-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for readPropertyMultiple is 14 decimal.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {service-ACK
+\par }\pard \qj\li720\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {The service-ACK is defined to be of type BACnet-Confirmed-Service-ACK, which is defined on page 351.  The CHOICE for readPropertyMultiple is the production ReadPropertyMultiple-ACK, which is defined on page 356 as a SEQUENCE OF ReadAccessResults.
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par The ReadAccessResult is defined on page 381 as a SEQUENCE consisting of "objectIdentifier", tagged with context tag 0 and of type Object Identifier; and \ldblquote listOfResults\rdblquote , tagged with context tag 1 and of type SEQUECE OF SEQUENCE.
+\par 
+\par Each element of the listOfResults SEQUENCE OF consists of a "propertyIdentifier", tagged with context tag 2 and of type BACnetPropertyIdentifier; a "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 3; and a CHOICE of either "propertyValue" tagged with context tag 4 and of type ABSTRACT-SYNTAX.&Type, or \ldblquote propertyAccessError\rdblquote , tagged with context tag 5 and of type Error.
+\par 
+\par In this example, the response contains a single ReadAccessResult, which specifies a single element listOfResults.
+\par 
+\par In this example, a propertyValue will be returned.  The designation "ABSTRACT-SYNTAX.&Type" means that the encoding (defined in clause 20.2.19) is the complete encoding including tags of the data type defined for the property value being returned.  Since such an encoding includes tags, the ABSTRACT-SYNTAX.&Type is "constructed" according to the definition of 20.2.1.3.2, the context tag 4 must be encoded as an opening tag/closing tag pair surrounding the encoding of the ABSTRACT-SYNTAX.&Type.  In this example, the value is a real number.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {6.2.1  ReadPropertyMultiple - Response on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP BCU sends ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 30
+\par 0x1E
+\par 0xD7\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF\tab Hop Count 255
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0xE5\tab Data CRC
+\par 0xD4  
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par 
+\par Note that the response in this example was conveyed in a Data 1 frame.  Examples in this document should not be assumed to be consecutive.  Note that transmit and receive sequence numbers (Data 0 versus Data 1) are independent.  They must be processed as described in clause 10.  Both sequence numbers must be reset to zero whenever a connection is made.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {6.2.2  ReadPropertyMultiple - Response on ARCNET
+\par }\pard\plain \qj\keep\keepn\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET BCU sends ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x19 \tab ARCNET Frame Length = 25.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {7.0  ReadPropertyMultiple - Multiple Properties of Analog Input
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {Example of a ReadPropertyMultiple for the present-value, status-flags, and engineering units properties of Analog Input Object instance number 1.
+\par 
+\par In this case, the request contains a single ReadAccessSpecification, which specifies a SEQUENCE OF (list of) three BACnetPropertyReferences, one for each of the three properties to be read.
+\par 
+\par The encoding is as described in the previous example, except that the SEQUENCE OF BACnetPropertyReference contains three elements between its opening and closing tags.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {7.1  ReadPropertyMultiple - on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 28
+\par 0x1C
+\par 0x28\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab Destination address length 1 octet
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF\tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Property 85:  present-value
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x6F\tab \tab \tab \tab Property 111:  status-flags
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x75\tab \tab \tab \tab Property 117:  units
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0xC8\tab Data CRC
+\par 0xDC 
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par 
+\par In this case, the response contains a single ReadAccessResult, which specifies a SEQUENCE OF (list of) three SEQUENCE, one for each of the three properties to be returned.
+\par 
+\par }{\b PTP BCU responds with ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x03\tab Frame Type 3: Data 1
+\par 0x00\tab Length = 43
+\par 0x2B
+\par 0x5C\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF \tab Hop Count 255
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x6F\tab \tab \tab \tab Data: Property 111:  status-flags
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x82\tab \tab \tab \tab Application Tag 8 (bit string), length 2
+\par 0x04\tab \tab \tab \tab \tab 4 unused bits in final octet
+\par 0x00\tab \tab \tab \tab \tab data (FALSE,FALSE,FALSE,FALSE)
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x75\tab \tab \tab \tab Data: Property 117:  units
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x91\tab \tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x40\tab \tab \tab \tab \tab Data: value 64: degrees-Fahrenheit
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0xAB\tab Data CRC
+\par 0x36  
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0x23\tab Header CRC
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {7.2  ReadPropertyMultiple - on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x17 \tab ARCNET Frame Length = 23.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab Network version 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Property 85:  present-value
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x6F\tab \tab \tab \tab Property 111:  status-flags
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x75\tab \tab \tab \tab Property 117:  units
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 
+\par In this case, the response contains a single ReadAccessResult, which specifies a SEQUENCE OF (list of) three SEQUENCE, one for each of the three properties to be returned.
+\par 
+\par }{\b ARCNET BCU responds with ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x26 \tab ARCNET Frame Length = 38.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab Network version 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x02\tab Invoke ID 2
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x6F\tab \tab \tab \tab Data: Property 111:  status-flags
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x82\tab \tab \tab \tab Application Tag 8 (bit string), length 2
+\par 0x04\tab \tab \tab \tab \tab 4 unused bits in final octet
+\par 0x00\tab \tab \tab \tab \tab data (FALSE,FALSE,FALSE,FALSE)
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x75\tab \tab \tab \tab Data: Property 117:  units
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x91\tab \tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x40\tab \tab \tab \tab \tab Data: value 64: degrees-Fahrenheit
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {8.0  ReadPropertyMultiple - Single Property of Multiple Objects
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {Example of a ReadPropertyMultiple for the present-value of Binary Input Object number 1 and of Analog Input Object number 1 in a single request.
+\par 
+\par In this case, the request contains two ReadAccessSpecifications, one for each object.  Each ReadAccessSpecification specifies a SEQUENCE OF (list of) one BACnetPropertyReference.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {8.1  ReadPropertyMultiple - on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 33
+\par 0x21
+\par 0xC2\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par 0x01\tab Destination address length 1 octet
+\par 0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF\tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x06\tab Invoke ID 6
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00\tab \tab \tab Data: Object type 3 (Binary Input), Object Instance 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0xC0  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x98\tab Data CRC
+\par 0x16  
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                                 
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0xBB\tab Header CRC
+\par 
+\par The response contains two ReadAccessResults, each of which specifies a SEQUENCE OF (list of) one property value.
+\par 
+\par }{\b PTP BCU responds with ComplexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x03\tab Frame Type 3: Data 1
+\par 0x00\tab Length = 43
+\par 0x2B
+\par 0x5C\tab Header CRC
+\par  \tab NPDU follows
+\par 0x01\tab Network version 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x28\tab Network control octet
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x06\tab Invoke ID 6
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 3 (Binary Input), Object Instance 1
+\par 0xc0  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x91\tab \tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x01\tab \tab \tab \tab \tab Data: enumerated value 1: active
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0xCA\tab Data CRC
+\par 0x06
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                                   
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0x23\tab Header CRC
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {8.2  ReadPropertyMultiple - on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x1C \tab ARCNET Frame Length = 28.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab APDU follows
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x06\tab Invoke ID 6
+\par 0x0E\tab Service Choice 14:  Read Property Multiple
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 3 (Binary Input), Object Instance 1
+\par 0xC0  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyReference
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 
+\par The response contains two ReadAccessResults, each of which specifies a SEQUENCE OF (list of) one property.
+\par 
+\par }{\b ARCNET BCU responds with ComlexACK
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x26 \tab ARCNET Frame Length = 38.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x06\tab Invoke ID 6
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 3 (Binary Input), Object Instance 1
+\par 0xC0  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x91\tab \tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x01\tab \tab \tab \tab \tab Data: enumerated value 1: active
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x4E\tab \tab \tab Context Tag 4, opening tag: ABSTRACT-SYNTAX.&Type
+\par 0x44\tab \tab \tab \tab Application Tag 4 (Real), length 4
+\par 0x42\tab \tab \tab \tab \tab Data: value = 46.4
+\par 0x39
+\par 0x99
+\par 0x9A
+\par 0x4F\tab \tab \tab Context Tag 4, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {9.0  WriteProperty - Single Property of Binary Output
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {Example of a WriteProperty for the present-value property of Binary Output Object instance number 1.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {9.1  WriteProperty - Request
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The Binary Output Object and its properties are described in clause 12.5.  The WriteProperty service is described in clause 15.8.  The ASN.1 definition of WriteProperty is in clause 21.  This is a Confirmed service.  On page 348, a BACnet-Confirmed-Request-PDU is defined to be a SEQUENCE of items.  The comment states that tags are not used in the header encoding.  Header encoding for a BACnet-Confirmed-Request-PDU is shown in clause 20.1.2.  
+\par 
+\par The service-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for writeProperty is 15 decimal.
+\par 
+\par The service-request is defined to be of type BACnet-Confirmed-Service-Request, which is defined on page 351.  The CHOICE for writeProperty is the production WriteProperty-Request, which is defined on page 356 as a SEQUENCE consisting of "objectIdentifier", tagged with context tag 0 and of type BACnetObjectIdentifier; \ldblquote propertyIdentifier\rdblquote , tagged with context tag 1 and of type BACnetPropertyIdentifier; "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 2; "propertyvalue", tagged with context tag 3 and of type ABSTRACT-SYNTAX.&Type; and "priority", an OPTIONAL unsigned integer in the range 1 to 16 tagged with context tag 4.  Since the present-value of a Binary Output Object is not an array, propertyArrayIndex will not be present in this example.  Since the present-value of a Binary Output Object is a commandable property, priority will be present in this example.
+\par 
+\par The BACnetPropertyIdentifier is an enumeration defined on page 375.  present-value has an enumerated value of 85 decimal.
+\par 
+\par In this example, the value to written will be "inactive" (0), and the priority will be 7 (shown in Table 19-1 as available for general use).
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {9.1.1  WriteProperty - Request on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                              
+\par 0x03\tab Frame Type 3: Data 1
+\par 0x00\tab Length = 28
+\par 0x1C
+\par 0xB0\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par 0x01\tab Destination address length 1 octet
+\par 0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x05\tab Invoke ID 5
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x0F\tab Service Choice 15:  Write Property
+\par \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x01\tab \tab \tab Data: Object type 4 (Binary Output), Object Instance 1
+\par 0x00  
+\par 0x00  
+\par 0x01  
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab Data: Property 85:  present-value
+\par 0x3E\tab \tab Context Tag 3, opening tag: ABSTRACT-SYNTAX.&Type (value)
+\par 0x91\tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x00\tab \tab \tab \tab Data: enumerated value 0: inactive
+\par 0x3F\tab \tab Context Tag 3, closing tag
+\par 0x49\tab \tab Context Tag 4, length 1: unsigned (priority)
+\par 0x07\tab \tab \tab Data: value 7
+\par 0xEB\tab Data CRC
+\par 0xBE 
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                                 
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0x23\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {9.1.2  WriteProperty - Request on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x17 \tab ARCNET Frame Length = 23.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {\tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x05\tab Invoke ID 5
+\par 0x0F\tab Service Choice 15:  Write Property
+\par \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x01\tab \tab \tab Data: Object type 4 (Binary Output), Object Instance 1
+\par 0x00  
+\par 0x00  
+\par 0x01  
+\par 0x19\tab \tab Context Tag 1, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab Data: Property 85:  present-value
+\par 0x3E\tab \tab Context Tag 3, opening tag: ABSTRACT-SYNTAX.&Type (value)
+\par 0x91\tab \tab \tab Application tag 9 (enumerated), length 1
+\par 0x00\tab \tab \tab \tab Data: enumerated value 0: inactive
+\par 0x3F\tab \tab Context Tag 3, closing tag
+\par 0x49\tab \tab Context Tag 4, length 1: unsigned (priority)
+\par 0x07\tab \tab \tab Data: value 7
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {9.2  WriteProperty - Response
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {When the BCU receives a WriteProperty-Request, it services the request as described in clause 15.8.2  The normal response is a Result(+), which is defined in Table 15-13 as containing no parameters.  The definition in ASN.1 is in clause 21.
+\par 
+\par Since the response does not include data, it must be returned as a SimpleACK-PDU.  On page 348, BACnet-SimpleACK-PDU is defined to be a SEQUENCE of an invokeID and a service-ACK-choice.  The comment states that tags are not used in the header encoding.  Header encoding for BACnet-SimpleACK-PDU is shown in clause 20.1.4.
+\par 
+\par The service-ACK-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for writeProperty is 15 decimal.
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {9.2.1  WriteProperty - Response on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b PTP BCU responds
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                             
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 14
+\par 0x0E
+\par 0x26\tab Header CRC
+\par \tab NPDU follows
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab Network version 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par 0x01\tab SADR 0x01
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x20\tab APDU type 2:  Simple ACK
+\par 0x05\tab Invoke ID 5
+\par 0x0F\tab ServiceACK Choice 15:  Write Property
+\par \tab No Tagged Service parameters follow
+\par 0xDD\tab Data CRC
+\par 0x95 
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00
+\par 0xBB\tab Header CRC
+\par }\pard\plain \s3\qj\li576\sb480\sa240\keep\keepn\nowidctlpar\widctlpar\outlinelevel2\adjustright \b\f9\cf6\cgrid {9.2.2  WriteProperty - Response on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET BCU responds
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x09 \tab ARCNET Frame Length = 9.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x20\tab APDU type 2:  Simple ACK
+\par 0x05\tab Invoke ID 5
+\par 0x0F\tab ServiceACK Choice 15:  Write Property
+\par \tab No Tagged Service parameters follow
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {10.0  WritePropertyMultiple - Single Property of Binary Output
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The previous example used the WriteProperty service to write a property of an object.  This example uses the WritePropertyMultiple service to write the same property.  Either service may be used.  However, WritePropertyMultiple has additional capabilities, parallel to those of ReadPropertyMultiple.
+\par 
+\par Example of a WritePropertyMultiple for the present-value property of Binary Output Object instance number 1.
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {10.1  WritePropertyMultiple - on PTP
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {The WritePropertyMultiple service is described in clause 15.9.  The ASN.1 definition of WritePropertyMultiple is in clause 21.  This is a Confirmed service.  On page 348, a BACnet-Confirmed-Request-PDU is defined to be a SEQUENCE of items.  The comment states that tags are not used in the header encoding.  Header encoding for a BACnet-Confirmed-Request-PDU is shown in clause 20.1.2.  
+\par 
+\par The service-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for writePropertyMultiple is 16 decimal.
+\par 
+\par The service-request is defined to be of type BACnet-Confirmed-Service-Request, which is defined on page 351  The CHOICE for writePropertyMultiple is the production WritePropertyMultiple-Request, which is defined on page 357 as a SEQUENCE OF WriteAccessSpecifications.  The definition as a SEQUENCE OF means that a WritePropertyMultiple request can write to one or more properties of one or more objects.
+\par 
+\par The WriteAccessSpecification is defined on page 382 as a SEQUENCE consisting of "objectIdentifier", tagged with context tag 0 and of type BACnetObjectIdentifier; and "listOfProperties", tagged with context tag 1 and defined as a SEQUENCE OF (list of) BACnetPropertyValue.  The definition as a SEQUENCE OF means that a WriteAccessSpecification can include one or more properties.
+\par 
+\par The BACnetPropertyValue is defined on page 378 as a SEQUENCE consisting of "propertyIdentifier", tagged with context tag 0 and of type BACnetPropertyIdentifier; "propertyArrayIndex", an OPTIONAL unsigned integer tagged with context tag 1; "value", tagged with context tag 2 and of type ABSTRACT-SYNTAX.&Type; and "priority", an OPTIONAL unsigned integer in the range 1 to 16 tagged with context tag 3.  Since the present-value of a Binary Output Object is not an array, propertyArrayIndex will not be present in this example.  Since the present-value of a Binary Output Object is a commandable property, priority will be present in this example.
+\par 
+\par The BACnetPropertyIdentifier is an enumeration defined on page 375  present-value has an enumerated value of 85 decimal.
+\par 
+\par In this example, the value to written will be \ldblquote inactive\rdblquote , and the priority will be 7 (shown in Table 19-1 as available for general use).
+\par 
+\par }{\b PTP REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                              
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x03\tab Frame Type 3: Data 1
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x00\tab Length = 30
+\par 0x1E
+\par 0x4F\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x2C\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0001
+\par 0x01
+\par 0x01\tab Destination address length 1 octet
+\par 0x01\tab DADR 0x01
+\par 0x00\tab SNET 0x0002
+\par 0x02
+\par 0x01\tab Source address length 1 octet
+\par 0x15\tab SADR 0x15
+\par 0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par 0x07\tab Invoke ID 7
+\par 0x10\tab Service Choice 16 (escaped):  Write Property Multiple
+\par 0x90  
+\par   \tab Tagged Service follows
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x01\tab \tab \tab Data: Object type 4 (Binary Output), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyValue
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: enumerated value 85:  present-value
+\par 0x2E\tab \tab \tab Context Tag 2, opening tag: ABSTRACT-SYNTAX.&Type (value)
+\par 0x91\tab \tab \tab \tab Application Tag 9 (enumerated), length 1
+\par 0x00\tab \tab \tab \tab \tab Data: 0 = inactive
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x2F\tab \tab \tab Context Tag 2, closing tag
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x39\tab \tab \tab Context Tag 3, length: unsigned (priority)
+\par 0x07\tab \tab \tab \tab Data: Value 7
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 0xD0\tab Data CRC
+\par 0x81 
+\par 
+\par }{\b PTP BCU acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                                   
+\par 0x07\tab Frame Type 7: Data Ack 1 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0x23\tab Header CRC
+\par 
+\par }{\b PTP BCU responds
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                            
+\par 0x02\tab Frame Type 2: Data 0
+\par 0x00\tab Length = 14
+\par 0x0E    
+\par 0x26\tab Header CRC
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x28\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 1\tab \tab DNET present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 1\tab \tab SNET present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par 0x00\tab DNET 0x0002
+\par 0x02
+\par 0x01\tab Destination address length 1 octet
+\par 0x15\tab DADR 0x15
+\par 0x00\tab SNET 0x0001
+\par 0x01
+\par 0x01\tab Source address length 1 octet
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab SADR 0x01
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0xFF  \tab Hop Count 255
+\par \tab APDU follows
+\par 0x20\tab APDU type 2:  Simple ACK
+\par 0x07\tab Original Invoke ID 7
+\par 0x10\tab ServiceACK Choice 16 (escaped):  Write Property Multiple
+\par 0x90  
+\par 0x1B\tab Data CRC
+\par 0x4E
+\par 
+\par }{\b PTP REQUESTER acknowledges
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF                                   
+\par 0x06\tab Frame Type 6: Data Ack 0 XON
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0xBB\tab Header CRC
+\par }\pard\plain \s2\qj\li288\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel1\adjustright \b\f9\fs28\cf6\cgrid {10.2  WritePropertyMultiple - on ARCNET
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {\b ARCNET REQUESTER sends
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x15\tab ARCNET Source ID
+\par 0x01\tab ARCNET Destination ID
+\par 0x19 \tab ARCNET Frame Length = 25.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x04\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 1\tab  \tab reply expected (confirmed service request)
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x02\tab APDU type 0: Confirmed Request; Bit1: Segmented Response Accepted
+\par 0x03\tab Max response 3: up to 480 octets
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x07\tab Invoke ID 7
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x10\tab Service Choice:  Write Property Multiple
+\par \tab Tagged Service follows
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x01\tab \tab \tab Data: Object type 4 (Binary Output), Object Instance 1
+\par 0x00  
+\par 0x00
+\par 0x01  
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF BACnetPropertyValue
+\par 0x09\tab \tab \tab Context Tag 0, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: enumerated value 85:  present-value
+\par 0x2E\tab \tab \tab Context Tag 2, opening tag: ABSTRACT-SYNTAX.&Type (value)
+\par 0x91\tab \tab \tab \tab Application Tag 9 (enumerated), length 1
+\par 0x00\tab \tab \tab \tab \tab Data: 0 = inactive
+\par 0x2F\tab \tab \tab Context Tag 2, closing tag
+\par 0x39\tab \tab \tab Context Tag 3, length: unsigned (priority)
+\par 0x07\tab \tab \tab \tab Data: Value 7
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par 
+\par }{\b ARCNET BCU responds
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab ARCNET Source ID
+\par 0x15\tab ARCNET Destination ID
+\par 0x09 \tab ARCNET Frame Length = 9.
+\par 0xCD\tab ARCNET System Code for BACnet
+\par 0x82\tab 8802-2 SSAP (value assigned by IEEE to BACnet)
+\par 0x82\tab 8802-2 DSAP
+\par 0x83\tab 8802-2 function: UI
+\par \tab NPDU follows
+\par 0x01\tab Network version 1
+\par 0x00\tab Network control octet
+\par \tab \tab Bit7\tab \tab = 0\tab \tab "BACnet APDU"
+\par \tab \tab Bit6\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit5 \tab = 0\tab \tab DNET not present
+\par \tab \tab Bit4\tab \tab = 0\tab \tab not used
+\par \tab \tab Bit3 \tab = 0\tab \tab SNET not present
+\par \tab \tab Bit2    \tab = 0\tab  \tab no reply expected
+\par \tab \tab Bit1,0 \tab = 00 \tab normal priority
+\par \tab APDU follows
+\par 0x20\tab APDU type 2:  Simple ACK
+\par 0x07\tab Original Invoke ID 7
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x10\tab ServiceACK Choice 16:  Write Property Multiple
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {11.0  Breaking a PTP Connection
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {This section does not apply to ARCNET interfaces.
+\par 
+\par To break a connection with the BCU, a PTP REQUESTER sends
+\par 
+\par 0x55\tab Preamble
+\par 0xFF                                   
+\par 0x0E\tab Frame Type 14:  Disconnect Request
+\par 0x00\tab Length = 1
+\par 0x01                                   
+\par 0x89\tab Header CRC
+\par 0x03\tab Disconnect reason 3: other
+\par 0xE3\tab Data CRC
+\par 0xC2  
+\par 
+\par }{\b PTP BCU responds
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x55\tab Preamble
+\par 0xFF
+\par 0x0F\tab Frame Type 15: Disconnect Response
+\par 0x00\tab Length = 0
+\par 0x00                                   
+\par 0xEF\tab Header CRC
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {12.0  Error APDUs
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {If a REQUESTER sends a correctly encoded Confirmed-Service-Request, and the BCU encounters some condition while servicing the request which necessitates the return of Result(-), the BCU will return a BACnet-Error-PDU.  For example, when the BCU receives a WritePropertyMultiple-Request, it services the request as described in clause 15.9.2.  If a specified object does not exist, or a specified property is not writable, the response is a Result(-), which is defined in Table 15-14 as containing two parameters, Error Type, and First Failed Write Attempt.  The definition in ASN.1 is in clause 21.
+\par 
+\par Since the response is a Result(-), it must be returned as a BACnet-Error-PDU.  On page 349, BACnet-Error-PDU is defined to be a SEQUENCE consisting of an invokeID, an error-choice, and an error.  The comment states that tags are not used in the header encoding.  Header encoding for BACnet-Error-PDU is shown in clause 20.1.7.
+\par 
+\par The error-choice is defined to be of type BACnetConfirmedServiceChoice, which is defined on page 350 as an enumeration.  The value for writePropertyMultiple is 16 decimal.
+\par 
+\par The "error" is defined to be of type BACnet-Error, which is defined on page 361 as a CHOICE.  The value of the CHOICE for writePropertyMultiple, defined to be of type WritePropertyMultiple-Error.  The comment on BACnet-Error states that the context tags on the CHOICE are not to be used in the encoding.
+\par 
+\par WritePropertyMultiple-Error is defined on page 364 as a SEQUENCE consisting of errorType, tagged with context tag 0 and of type Error; and firstFailedWriteAttempt, tagged with context tag 1 and of type BACnetObjectPropertyReference.
+\par 
+\par Error is defined on page 363 as a sequence consisting of two enumerations:  error-class and error-code.  In the case of a non-existent object, the error-class will be "object" and the error-code will generally be "unknown-object".
+\par 
+\par In the case of an unknown object, the \ldblquote firstFailedWriteAttempt\rdblquote  is the first property in the propertyList.
+\par 
+\par The PTP framing and Network information of a BACnet-Error-PDU are as shown in the previous examples.  The APDU portion is defined in clause 20.1.7, and might appear as follows:
+\par 
+\par 0x50\tab APDU type 5:  Error
+\par 0x06\tab Original Invoke ID 6
+\par 0x10\tab Error Choice 16 (escaped):  Write Property Multiple
+\par 0x90
+\par   \tab Tagged Service parameters follow
+\par 0x0E\tab \tab Context Tag 0, opening tag:  Error
+\par 0x91\tab \tab \tab Application Tag 9 (enumerated), length 1
+\par 0x01\tab \tab \tab \tab Data: value 1: "object"
+\par 0x91\tab \tab \tab Application Tag 9 (enumerated), length 1
+\par 0x1F\tab \tab \tab \tab Data: value 31: "unknown-object"
+\par 0x0F\tab \tab Context Tag 0, closing tag
+\par 
+\par 0x1E\tab \tab Context Tag 1, opening tag:  firstFailedWriteAttempt
+\par 0x0C\tab \tab \tab Context Tag 0, length 4:  objectIdentifier
+\par 0x00\tab \tab \tab \tab Data: Object type 4 (Binary Output), Object Instance 1
+\par 0x01  
+\par 0x00  
+\par 0x00  
+\par 0x01
+\par 0x19\tab \tab \tab Context Tag 1, length 1:  propertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: 55 (present value)
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {13.0  Errors Within the Response to ReadPropertyMultiple
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {If a REQUESTER sends a correctly encoded Confirmed-Service-Request containing a ReadPropertyMultiple request, and the BCU encounters some condition while servicing the request which necessitates the return an error to one or more of the requested, the BCU will issue a BACnet-ComplexACK-PDU.  For example, if the request of section 6 were sent to a BCU which did not contain the specified object, the response would contain a tagged error (CHOICE [5]) rather than a tagged value (CHOICE [4]).
+\par 
+\par The PTP framing and Network information of a BACnet-Error-PDU are as shown in the previous examples.  The APDU portion might appear as follows:
+\par 
+\par 0x30\tab APDU type 3: Complex ACK
+\par 0x05\tab Invoke ID 5 (matching the Invoke ID of the request)
+\par 0x0E\tab Service Choice 14:  Read Property Multiple ACK
+\par   \tab Tagged Service parameters follow
+\par 0x0C\tab \tab Context Tag 0, length 4:  Object Identifier
+\par 0x00\tab \tab \tab Data: Object type 0 (Analog Input), Object Instance 1
+\par 0x00
+\par 0x00
+\par 0x01
+\par 0x1E\tab \tab Context Tag 1, opening tag:  SEQUENCE OF SEQUENCE
+\par 0x29\tab \tab \tab Context Tag 2, length 1:  BACnetPropertyIdentifier
+\par 0x55\tab \tab \tab \tab Data: Property 85:  present-value
+\par 0x5E\tab \tab \tab Context Tag 5, opening tag: Error
+\par 0x91\tab \tab \tab \tab Application Tag 9 (enumerated), length 1: Error Class
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x01\tab \tab \tab \tab \tab Data: value = 01 (object)
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {0x91\tab \tab \tab \tab Application Tag 9 (enumerated), length 1: Error Code
+\par 0x1F\tab \tab \tab \tab \tab Data: value = 31 (unknown-object)
+\par 0x5F\tab \tab \tab Context Tag 5, closing tag
+\par 0x1F\tab \tab Context Tag 1, closing tag
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {14.0  Reject of Invalid APDUs
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {If a REQUESTER sends a Confirmed-Service-Request with a valid APDU header, but with errors in the tagged portion (for example, missing items, incorrect tag numbers, or incorrect encoding of data values), the BCU will return a BACnet-Reject-PDU.
+\par 
+\par The PTP framing and Network information of a BACnet-Reject-PDU are as shown in the previous examples.  The APDU portion is defined in clause 20.1.8, and might appear as follows:
+\par 
+\par 0x60\tab APDU type 6:  Reject
+\par 0x06\tab Original Invoke ID 6
+\par 0x04\tab Reject Reason 4 (invalid-tag)
+\par 
+\par The BACnetRejectReason enumeration is on page 362.
+\par }\pard\plain \s1\qj\sb560\sa280\keep\keepn\nowidctlpar\widctlpar\outlinelevel0\adjustright \b\f9\fs28\cf6\cgrid {15.0  Abort APDUs
+\par }\pard\plain \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright \f9\fs20\cgrid {If a BCU cannot acquire sufficient internal resources to service a request, or if the request contains a non-initial segment, the BCU will return a BACnet-Abort-PDU.  Since the BCU is acting as a server for the request, it will set the \ldblquote server\rdblquote  bit in the Abort PCU.
+\par 
+\par The PTP framing and Network information of a BACnet-Abort-PDU are as shown in the previous examples.  The APDU portion is defined in clause 20.1.9, and might appear as follows:
+\par 
+\par 0x71\tab APDU type 7:  Abort, sent by server
+\par 0x06\tab Original Invoke ID 6
+\par 0x02\tab Abort Reason 2 (invalid-APDU-in-this-state)
+\par 
+\par The BACnetAbortReason enumeration is on page 361
+\par }\pard \qj\keep\nowidctlpar\widctlpar\tx720\tx1080\tx1440\tx1800\tx2160\tx2520\tx2880\tx3240\tx3600\tx3960\tx4320\tx4680\tx5040\adjustright {
+\par }}
