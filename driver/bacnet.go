@@ -220,16 +220,16 @@ func (m *bacnetTwin) Start(ctx context.Context) error {
 		m.lg.Error("bacnetTwin.Start Error: obj has been stopped")
 		return nil
 	}
-	addr, err := net.ResolveTCPAddr("tcp4", fmt.Sprintf("%s:%d", m.ip, m.port))
+	addr, err := net.ResolveUDPAddr("udp", fmt.Sprintf("%s:%d", m.ip, m.port))
 	if err != nil {
 		m.lg.Errorf("bacnetTwin.Start Error: illegal addr: %+v, err: %+v", addr, err)
 		return err
 	}
 	m.lock.Lock()
 	defer m.lock.Unlock()
-	conn, err := net.DialTimeout("tcp", addr.String(), time.Duration(m.timeoutMS))
+	conn, err := net.DialTimeout("udp", addr.String(), time.Duration(m.timeoutMS))
 	if err != nil {
-		m.lg.Errorf("bacnetTwin.Start Error: TCP Connection addr: %+v, err: %+v", addr, err)
+		m.lg.Errorf("bacnetTwin.Start Error: udp Connection addr: %+v, err: %+v", addr, err)
 		return err
 	}
 	m.conn = conn

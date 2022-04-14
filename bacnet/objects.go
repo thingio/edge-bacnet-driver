@@ -14,7 +14,7 @@ const (
 type PropertyID byte
 
 const (
-	PID_OID                           PropertyID = 75
+	PID_OID                           PropertyID = 0x75
 	PID_VENDOR_NUMBER                 PropertyID = 0x78
 	PID_VENDOR_NAME                   PropertyID = 0x79
 	PID_FIRMWARE_REVISION             PropertyID = 0x2c
