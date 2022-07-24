@@ -101,3 +101,31 @@ func (m *Manager) Subscribe(start int, end int, options ...SubscriberOption) ([]
 		}
 	}
 }
+
+// SubscribeCov receives COV data meant for ids that fall between the start and end range.
+func (m *Manager) SubscribeCov(start int, end int, bus chan interface{}, lifetime uint32, options ...SubscriberOption) error {
+	s := m.newSubscriber(start, end, options)
+	defer m.removeSubscriber(s)
+	if lifetime != 0 {
+		s.timeout = time.Duration(lifetime)
+		c, can := context.WithTimeout(context.Background(), s.timeout)
+		defer can()
+		for {
+			select {
+			case <-c.Done():
+				return nil
+			case b := <-s.data:
+				bus <- b
+			}
+		}
+	} else {
+		for {
+			select {
+			case <-m.ctx.Done():
+				return nil
+			case b := <-s.data:
+				bus <- b
+			}
+		}
+	}
+}

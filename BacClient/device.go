@@ -172,6 +172,7 @@ func (c *Client) NewClient1() error {
 		utsm.DefaultSubscriberLastReceivedTimeout(time.Second * time.Duration(2)),
 	}
 	c.utsm = utsm.NewManager(options...)
+
 	udp, _ := net.ResolveUDPAddr("udp4", fmt.Sprintf(":%d", c.port))
 	conn, err := net.ListenUDP("udp", udp)
 	if err != nil {

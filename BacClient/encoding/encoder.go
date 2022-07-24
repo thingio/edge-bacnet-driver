@@ -74,6 +74,20 @@ func (e *Encoder) contextObjectID(tagNum uint8, objectType bactype.ObjectType, i
 	e.objectId(objectType, instance)
 }
 
+func (e *Encoder) contextSubscribeIdentifier(tagNum uint8, Identifier uint8) {
+	e.tag(tagInfo{ID: tagNum, Context: true, Value: 1})
+	e.subscribeIdentifier(Identifier)
+}
+
+func (e *Encoder) issueUnconfirmedCOV(tagNum uint8) {
+	e.tag(tagInfo{ID: tagNum, Context: true, Value: 1})
+	e.write(uint8(0))
+}
+
+func (e *Encoder) subscribeCOVlifetime(tagNum uint8, lifetime uint32) {
+	e.tag(tagInfo{ID: tagNum, Context: true, Value: lifetime})
+}
+
 // Write opening tag to the system
 func (e *Encoder) openingTag(num uint8) {
 	var meta tagMeta
@@ -153,6 +167,10 @@ func (e *Encoder) objectId(objectType bactype.ObjectType, instance bactype.Objec
 	var value uint32
 	value = ((uint32(objectType) & MaxObject) << InstanceBits) | (uint32(instance) & MaxInstance)
 	e.write(value)
+}
+
+func (e *Encoder) subscribeIdentifier(Identifier uint8) {
+	e.write(Identifier)
 }
 
 func (e *Encoder) contextEnumerated(tagNumber uint8, value uint32) {

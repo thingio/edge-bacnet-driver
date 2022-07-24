@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/gobacnet.iml" filepath="$PROJECT_DIR$/.idea/gobacnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/edge-bacnet-driver.iml" filepath="$PROJECT_DIR$/.idea/edge-bacnet-driver.iml" />
     </modules>
   </component>
 </project>

@@ -35,12 +35,12 @@ import (
 	"github.com/alexbeltran/gobacnet/types"
 )
 
-func (enc *Encoder) IAm(id types.IAm) error {
-	enc.AppData(id.ID)
-	enc.AppData(id.MaxApdu)
-	enc.AppData(id.Segmentation)
-	enc.AppData(id.Vendor)
-	return enc.Error()
+func (e *Encoder) IAm(id types.IAm) error {
+	e.AppData(id.ID)
+	e.AppData(id.MaxApdu)
+	e.AppData(id.Segmentation)
+	e.AppData(id.Vendor)
+	return e.Error()
 }
 
 func (d *Decoder) IAm(id *types.IAm) error {

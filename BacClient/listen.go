@@ -46,6 +46,7 @@ func (c *Client) Close() {
 		return
 	}
 	c.listener.Close()
+	c.utsm.Close()
 	if f, ok := c.log.Out.(*os.File); ok {
 		f.Close()
 	}
@@ -91,9 +92,7 @@ func (c *Client) handleMsg(src *net.UDPAddr, b []byte) {
 				c.log.Debug("Received IAm Message")
 				dec = encoding.NewDecoder(apdu.RawData)
 				var iam bactype.IAm
-
 				err = dec.IAm(&iam)
-
 				// For whatever reason, the IP section won't be populated until
 				// we set the type.
 				src.IP = src.IP.To4()
@@ -109,6 +108,12 @@ func (c *Client) handleMsg(src *net.UDPAddr, b []byte) {
 				dec.WhoIs(&low, &high)
 				// For now we are going to ignore who is request.
 				//log.WithFields(log.Fields{"low": low, "high": high}).Debug("WHO IS Request")
+			} else if apdu.UnconfirmedService == bactype.ServiceUnconfirmedCOVNotification {
+				c.log.Debug("Received UnconfirmedCOV Message")
+				dec = encoding.NewDecoder(apdu.RawData)
+				var cov bactype.SubscribeCOVData
+				err = dec.SubscribeCOV(&cov)
+				c.utsm.Publish(int(cov.Object.ID.Instance), cov)
 			} else {
 				c.log.Errorf("Unconfirmed: %d %v", apdu.UnconfirmedService, apdu.RawData)
 			}

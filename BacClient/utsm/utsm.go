@@ -32,6 +32,7 @@ License.
 package utsm
 
 import (
+	"context"
 	"sync"
 	"time"
 )
@@ -50,6 +51,8 @@ type Manager struct {
 	mutex             *sync.Mutex
 	subTimeout        time.Duration
 	subOverallTimeout time.Duration
+	ctx               context.Context
+	cancel            context.CancelFunc
 }
 
 // NewManager initializes a manager's internals. Do not allocate a struct of the
@@ -60,6 +63,11 @@ func NewManager(options ...ManagerOption) *Manager {
 		subOverallTimeout: defaultOverallTimeout,
 		mutex:             &sync.Mutex{},
 	}
+	if m.cancel != nil {
+		m.cancel()
+	}
+	m.ctx, m.cancel = context.WithCancel(context.Background())
+
 	for _, op := range options {
 		op(m)
 	}
@@ -69,7 +77,7 @@ func NewManager(options ...ManagerOption) *Manager {
 // ManagerOption are function passed to NewManager to configure the manager
 type ManagerOption func(m *Manager)
 
-// DefaultSubscriberTimeout option sets a a timeout period when we have not
+// DefaultSubscriberTimeout option sets a timeout period when we have not
 // received any packages to a subscriber for the timeout period
 func DefaultSubscriberTimeout(timeout time.Duration) ManagerOption {
 	return func(m *Manager) {
@@ -147,5 +155,11 @@ func (m *Manager) removeSubscriber(sub *subscriber) {
 			m.subs = m.subs[:len(m.subs)-1]
 			return
 		}
+	}
+}
+
+func (m *Manager) Close() {
+	if m.cancel != nil {
+		m.cancel()
 	}
 }

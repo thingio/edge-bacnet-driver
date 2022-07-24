@@ -137,6 +137,11 @@ func (d *Decoder) objectId() (objectType bactype.ObjectType, instance bactype.Ob
 	return
 }
 
+func (d *Decoder) subscribeProcessId() (sid uint8) {
+	d.decode(&sid)
+	return sid
+}
+
 func (d *Decoder) enumerated(len int) uint32 {
 	return d.unsigned(len)
 }

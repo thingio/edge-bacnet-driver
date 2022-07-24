@@ -76,6 +76,7 @@ func (c *Client) ReadProperty(dest bactype.Device, rp bactype.ReadPropertyData) 
 
 	// the value filled doesn't matter. it just needs to be non nil
 	err = fmt.Errorf("go")
+
 	for count := 0; err != nil && count < 2; count++ {
 		var b []byte
 		var out bactype.ReadPropertyData
@@ -103,7 +104,6 @@ func (c *Client) ReadProperty(dest bactype.Device, rp bactype.ReadPropertyData) 
 		var apdu bactype.APDU
 		dec.APDU(&apdu)
 		dec.ReadProperty(&out)
-
 		return out, dec.Error()
 	}
 	return bactype.ReadPropertyData{}, err

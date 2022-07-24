@@ -5,7 +5,6 @@ import (
 	"fmt"
 	bacnet "github.com/alexbeltran/gobacnet"
 	bactype "github.com/alexbeltran/gobacnet/types"
-	"github.com/patrickmn/go-cache"
 	"github.com/thingio/edge-device-std/errors"
 	"github.com/thingio/edge-device-std/logger"
 	"github.com/thingio/edge-device-std/models"
@@ -22,7 +21,6 @@ type bacnetDriver struct {
 	dvcID  string // 设备ID
 	conn   net.Conn
 	closed bool
-	stop   chan bool
 	lock   sync.Mutex
 }
 
@@ -41,22 +39,20 @@ type bacnetTwin struct {
 
 	watchSchedulers map[time.Duration][]*models.ProductProperty          // for property's watching
 	properties      map[models.ProductPropertyID]*models.ProductProperty // for property's reading
-	propertyCache   *cache.Cache                                         // for property's reading
 	events          map[models.ProductEventID]*models.ProductEvent       // for event's subscribing
 
+	ctx     context.Context    // 标识当前driver生命周期的上下文
+	cancel  context.CancelFunc // 用于关闭当前driver生命周期的方法句柄
 	stopped chan bool
-
-	lg *logger.Logger
+	lg      *logger.Logger
 }
 
 func NewBacnetDriver(device *models.Device) *bacnetDriver {
 	driver := &bacnetDriver{
 		bacnetDeviceConf: &bacnetDeviceConf{},
 		conn:             nil,
-		stop:             make(chan bool),
 		closed:           false,
 		lock:             sync.Mutex{},
-		//once:             sync.Once{},
 	}
 	for k, v := range device.DeviceProps {
 		switch k {
@@ -102,7 +98,6 @@ func NewBacnetTwin(product *models.Product, device *models.Device) (models.Devic
 		stopped:         make(chan bool),
 		watchSchedulers: make(map[time.Duration][]*models.ProductProperty),
 		properties:      make(map[models.ProductPropertyID]*models.ProductProperty),
-		propertyCache:   cache.New(30*time.Minute, 30*time.Minute),
 		events:          make(map[models.ProductEventID]*models.ProductEvent),
 	}
 	return twin, nil
@@ -133,6 +128,18 @@ func (m *bacnetTwin) Initialize(lg *logger.Logger) error {
 }
 
 func (m *bacnetTwin) Start(ctx context.Context) error {
+	m.ctx, m.cancel = context.WithCancel(ctx)
+	// 启动前清理残留对象
+	if m.Client != nil {
+		m.Client.Close()
+	}
+	if m.cancel != nil {
+		m.cancel()
+	}
+
+	// 通过 cancel 与 context 控制定时读属性的协程
+	m.ctx, m.cancel = context.WithCancel(context.Background())
+
 	if m.closed == true {
 		m.lg.Error("bacnetTwin.Start Error: obj has been stopped")
 		return nil
@@ -149,14 +156,19 @@ func (m *bacnetTwin) Stop(force bool) error {
 	defer func() {
 		close(m.stopped)
 	}()
+	if m.Client != nil {
+		m.Client.Close()
+	}
+	if m.cancel != nil {
+		m.cancel()
+	}
 	m.bacnetDriver.closed = true
-	m.bacnetDriver.stop <- true
 	m.stopped <- true
-	m.Client.Close()
 	return nil
 }
 
 func (m *bacnetTwin) HealthCheck() (*models.DeviceStatus, error) {
+
 	return nil, nil
 }
 
@@ -202,7 +214,7 @@ func (m *bacnetTwin) Read(propertyID models.ProductPropertyID) (map[models.Produ
 			Value: out.Object.Properties[0].Data,
 			Ts:    time.Time{},
 		}
-		m.propertyCache.Set(property.Id, value, 30*time.Minute)
+		//m.propertyCache.Set(property.Id, value, 30*time.Minute)
 		res[id] = value
 		return res, nil
 	}
@@ -270,6 +282,7 @@ func (m *bacnetTwin) write(pid models.ProductPropertyID, data *models.DeviceData
 				{
 					Type:       PropertyType,
 					ArrayIndex: bacnet.ArrayAll,
+					Data:       data.Value,
 				},
 			},
 		},
@@ -287,7 +300,84 @@ func (m *bacnetTwin) write(pid models.ProductPropertyID, data *models.DeviceData
 }
 
 func (m *bacnetTwin) Subscribe(eventID models.ProductEventID, bus chan<- *models.DeviceDataWrapper) error {
-	return nil
+	// 获取事件配置
+	ec, ok := m.events[eventID]
+	if !ok {
+		return errors.NewCommonEdgeError(errors.Driver, fmt.Sprintf("opcua event '%s' not found in %+v", eventID, m.events), nil)
+	}
+	propertyID := ec.Outs[0].Id
+	property, ok := m.properties[propertyID]
+	if !ok {
+		return errors.NewCommonEdgeError(errors.NotFound, fmt.Sprintf("the property[%s] hasn't been ready", property.Id), nil)
+	}
+	ObjectTypeId, ObjectInstance, PropertyType, err := m.getPropertyInfo(propertyID)
+	if err != nil {
+		m.lg.Errorf("can't get the info of property %s", propertyID)
+		return errors.NewCommonEdgeError(errors.NotFound, fmt.Sprintf("can't get the info of property %s", propertyID), nil)
+	}
+
+	// COV订阅时间 若不存在则订阅时间为永久
+	lifetime := 0
+	value, ok := property.AuxProps["Lifetime"]
+	if ok {
+		lifetime, err = strconv.Atoi(value)
+		if err != nil {
+			m.lg.Errorf("wrong lifetime : ", property.AuxProps["Lifetime"])
+			return errors.NewCommonEdgeError(errors.NotFound, fmt.Sprintf("the info of property lifetime %s is wrong", property.AuxProps["Lifetime"]), nil)
+		}
+	}
+
+	rp := bactype.SubscribeCOVData{
+		Lifetime: uint32(lifetime),
+		Object: bactype.Object{
+			ID: bactype.ObjectID{
+				Type:     bactype.ObjectType(ObjectTypeId),
+				Instance: bactype.ObjectInstance(ObjectInstance),
+			},
+			Properties: []bactype.Property{
+				{
+					Type:       PropertyType,
+					ArrayIndex: bacnet.ArrayAll,
+				},
+			},
+		},
+	}
+	dev := bactype.Device{
+		Addr: bactype.Address{
+			IPaddr: m.dev.IPAddr,
+		},
+	}
+
+	var valuebus chan interface{}
+	err = m.Client.SubCOV(dev, rp, valuebus)
+
+	kvs := make(map[string]*models.DeviceData, len(ec.Outs))
+
+	for {
+		select {
+		case <-m.ctx.Done():
+			return nil
+		case b := <-valuebus:
+			r, ok := b.(bactype.SubscribeCOVData)
+			// Skip non SubscribeCOVData responses
+			if !ok {
+				continue
+			}
+			kvs[propertyID] = &models.DeviceData{
+				Name:  property.Name,
+				Type:  property.FieldType,
+				Value: r.Object.Properties[0].Data,
+				Ts:    time.Time{},
+			}
+
+			bus <- &models.DeviceDataWrapper{
+				DeviceID:   m.dvcID,
+				ProductID:  m.pid,
+				FuncID:     eventID,
+				Properties: kvs,
+			}
+		}
+	}
 }
 
 func (m *bacnetTwin) Call(methodID models.ProductMethodID, ins map[models.ProductPropertyID]*models.DeviceData) (outs map[models.ProductPropertyID]*models.DeviceData, err error) {

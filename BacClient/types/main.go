@@ -67,10 +67,19 @@ type Property struct {
 }
 
 type ReadPropertyData struct {
-	InvokeID   uint16
+	InvokeID   uint8
 	Object     Object
 	ErrorClass uint8
 	ErrorCode  uint8
+}
+
+type SubscribeCOVData struct {
+	InvokeID           uint8
+	Object             Object
+	ErrorClass         uint8
+	ErrorCode          uint8
+	Lifetime           uint32
+	SubscribeProcessId uint8
 }
 
 type ReadMultipleProperty struct {

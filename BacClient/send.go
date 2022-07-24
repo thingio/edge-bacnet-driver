@@ -91,12 +91,12 @@ func (c *Client) send(dest bactype.Address, data []byte) (int, error) {
 		return 0, err
 	}
 	/*
-		//Get IP Address
+		// Get IP Address
 		d, err := dest.UDPAddr()
 		if err != nil {
 			return 0, err
-		}
-	*/
+		}*/
+
 	addr, _ := net.ResolveUDPAddr("udp", dest.IPaddr)
 	// use default udp type, src = local address (nil)
 	return c.listener.WriteTo(e.Bytes(), addr)

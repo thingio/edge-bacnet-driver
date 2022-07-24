@@ -34,10 +34,11 @@ func main() {
 		Addr: bactype.Address{
 			IPaddr: "192.168.1.2:47808",
 		},
-		//IPAddr:       "192.168.1.2:47808",
 	}
+
 	var out bactype.ReadPropertyData
 	out, err = c.ReadProperty(dev, rp)
+	//Client.SubCOV(dev, rp , valuebus)
 	if err != nil {
 		return
 	}

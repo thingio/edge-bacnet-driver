@@ -19,3 +19,4 @@ go.sum
 
 # IDEA
 .idea
+/BacClient/test/

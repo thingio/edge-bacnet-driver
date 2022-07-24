@@ -73,7 +73,7 @@ func (t *tagMeta) setClosing() {
 }
 
 func (t *tagMeta) isClosing() bool {
-	return ((*t & closingMask) == closingMask)
+	return (*t & closingMask) == closingMask
 }
 
 func (t *tagMeta) setOpening() {
@@ -82,7 +82,7 @@ func (t *tagMeta) setOpening() {
 }
 
 func (t *tagMeta) isOpening() bool {
-	return ((*t & openingMask) == openingMask)
+	return (*t & openingMask) == openingMask
 }
 
 func (t *tagMeta) Clear() {
@@ -94,7 +94,7 @@ func (t *tagMeta) setContextSpecific() {
 }
 
 func (t *tagMeta) isContextSpecific() bool {
-	return ((*t & contextSpecificBit) > 0)
+	return (*t & contextSpecificBit) > 0
 }
 
 func (t *tagMeta) isExtendedValue() bool {
